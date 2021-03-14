@@ -1,0 +1,72 @@
+.container {
+  margin-top: 5vh;
+}
+.dec_header {
+  font-weight: 600;
+  font-size: 1.2vw;
+}
+.img_max_gloves {
+  top: 5vh;
+  right: 5%;
+  position: relative;
+  width: 30vw;
+  height: 60vh;
+  border-radius: 3px;
+  border: 1px solid rgb(71, 71, 71);
+}
+.desc {
+  position: relative;
+  top: 3.5vh;
+}
+.header__glov {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.shrt_img {
+  width: 6rem;
+  height: 12vh;
+  margin-bottom: 4vh;
+  border-radius: 3px;
+  border: 1px solid rgb(71, 71, 71);
+}
+.side_img:first-child {
+  margin-top: 5vh;
+}
+.row .contact {
+  top: 1vh;
+  width: 22vw;
+  left: 31vh;
+  position: relative;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: rgb(232, 123, 21);
+  color: white;
+}
+.sub {
+  line-height: 3.6;
+  font-size: 1.2rem;
+}
+.desc_sub {
+  position: relative;
+  right: -2%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.sub_no {
+  color: rgb(214, 51, 51);
+  font-weight: 500;
+}
+.success {
+  background-color: rgb(232 123 21);
+  padding: 8px;
+  color: white;
+  border-radius: 50%;
+}
+.col_suc {
+  background-color: rgb(232 123 21);
+  padding: 8px;
+  color: white;
+  border-radius: 10px;
+}

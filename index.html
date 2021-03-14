@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/Style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>LABBAIK</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col"><i class="far fa-arrow-alt-circle-left"></i>Back</div>
+        <div class="col">
+          <span>Home</span>
+          <i class="fas fa-angle-right"></i>
+          <span>Products</span>
+          <i class="fas fa-chevron-right"></i>
+          <span>Canadian Gloves</span>
+          <i class="fas fa-chevron-right"></i>
+          <span>LI/101</span>
+        </div>
+      </div>
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="side_img">
+                  <img class="shrt_img" src="./assets/Image/w-2.jpg" />
+                </div>
+                <div class="side_img">
+                  <img class="shrt_img" src="./assets/Image/w-3.jpg" />
+                </div>
+                <div class="side_img">
+                  <img class="shrt_img" src="./assets/Image/w-4.jpg" />
+                </div>
+                <div class="side_img">
+                  <img class="shrt_img" src="./assets/Image/w-1.jpg" />
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <!-- This is the Gloves Image -->
+
+              <!-- <img
+                class="img_max_gloves"
+                src="./assets/Image/w-1(mini).jpg"
+                id="zoom"
+                data-zoom-image="./assets/Image/w-1.jpg"
+              /> -->
+
+              <!-- Another Image other then Gloves -->
+
+              <img
+                class="img_max_gloves"
+                src="./assets/Image/trial_mini.jpg"
+                id="zoom"
+                data-zoom-image="./assets/Image/trial_large.jpg"
+              />
+            </div>
+            <button class="contact">Contact Us</button>
+          </div>
+        </div>
+        <div class="col desc">
+          <div class="row">
+            <h1 class="header__glov">Canadian Gloves - LI/101</h1>
+            <div class="color">
+              <span class="dec_header sub">Color</span>
+              <span class="desc_sub col_suc">Full White</span>
+            </div>
+          </div>
+          <div class="">
+            <span class="dec_header sub">Size</span>
+            <span class="desc_sub size9">09</span>
+            <span class="desc_sub size10">10</span>
+          </div>
+
+          <div class="">
+            <span class="dec_header sub">Tips</span>
+            <span class="desc_sub tip3">03</span>
+            <span class="desc_sub tip4">04</span>
+          </div>
+          <div class="">
+            <span class="dec_header sub">Split Leather</span>
+            <span class="desc_sub split1">7cm</span>
+            <span class="desc_sub split2">15cm</span>
+          </div>
+          <div class=" ">
+            <span class="dec_header sub">Pulse Protection</span>
+            <span class="desc_sub sub_no">No Pulse Protection</span>
+          </div>
+          <div class=" ">
+            <span class="dec_header sub">Leather Thickness</span>
+            <span class="desc_sub">1.0 to 1.3 mm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/script/script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/elevatezoom/2.2.3/jquery.elevatezoom.min.js"
+      integrity="sha512-UH428GPLVbCa8xDVooDWXytY8WASfzVv3kxCvTAFkxD2vPjouf1I3+RJ2QcSckESsb7sI+gv3yhsgw9ZhM7sDw=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.rawgit.com/igorlino/elevatezoom-plus/1.1.6/src/jquery.ez-plus.js"
+    ></script>
+    <script>
+      $("#zoom").elevateZoom();
+      // $("#zoom").ezPlus({
+      //   zoomType: "lens",
+      //   lensShape: "round",
+      //   lensSize: 200,
+      // });
+    </script>
+  </body>
+</html>
